@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+
+/* CSS for Alert */
+.alert-box {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.75s ease, transform 0.75s ease;
+  background-color: #e0f2f1;
+  border: 1px solid #009688;
+  color: #00796b;
+  padding: 16px;
+  border-radius: 4px;
+  position: fixed;
+  top: 70px; /* Adjust to position below the navbar */
+  left: 20px;
+  z-index: 1000;
+}
+
+.alert-box.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.alert-box.hidden {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/*.dark-mode {*/
+/*  background-color: #333;*/
+/*  color: #fff;*/
+/*}*/
+
+/*.light-mode {*/
+/*  background-color: #fff;*/
+/*  color: #000;*/
+/*}*/
+
+.underline-select {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  background: none;
+  padding: 0.5rem 0.25rem;
+  outline: none;
+  margin-right: 20px;
+}
+
+.underline-select:focus {
+  border-bottom-color: #333;
+  box-shadow: none;
+}
+
+.underline-select::-ms-expand {
+  display: none;
+}
+
+.underline-select-wrapper {
+  position: relative;
+}
+
+.underline-select-wrapper::after {
+  content: '▼';
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /*color: #333;*/
+}
