@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/inotebook/static/css/main.0cf86761.css",
+    "main.js": "/inotebook/static/js/main.d700c722.js",
+    "static/js/453.22972560.chunk.js": "/inotebook/static/js/453.22972560.chunk.js",
+    "static/media/note_logo.svg": "/inotebook/static/media/note_logo.16ebbfdea70748633a40b797b3cfc65a.svg",
+    "index.html": "/inotebook/index.html",
+    "main.0cf86761.css.map": "/inotebook/static/css/main.0cf86761.css.map",
+    "main.d700c722.js.map": "/inotebook/static/js/main.d700c722.js.map",
+    "453.22972560.chunk.js.map": "/inotebook/static/js/453.22972560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cf86761.css",
+    "static/js/main.d700c722.js"
+  ]
+}
